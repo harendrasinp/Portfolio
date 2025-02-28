@@ -47,7 +47,7 @@ export const Home = () => {
                 <div className={"Project"}>
                     <img src="https://cdn-icons-png.flaticon.com/128/4257/4257674.png" alt="Project" />
                 </div>
-                <div>Process in Deployment</div>
+                <div>inProcess of Deployment</div>
             </div>
             <div className={"infoBox"}>
                 <div className={"info-title"} id='achivment'>Achievements</div>
