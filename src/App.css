@@ -1,0 +1,10 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.appContainer{
+  height: 100vh;
+  /* background-color: rgba(3, 3, 3, 0.952); */
+  background-image: url("../public/background.jpg");
+  background-size: cover;
+}
