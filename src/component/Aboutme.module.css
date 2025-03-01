@@ -5,7 +5,7 @@
 }
 .aboutmeBox{
     margin-top: 25px;
-    width:60%;
+    width:50%;
     min-height: 100vh;
     backdrop-filter: blur(12px);
     background-color: rgba(39, 37, 37, 0.363);
@@ -16,19 +16,6 @@
     flex-direction: column;
 }
 
-/* .detailTitle{
-    color: rgb(248, 154, 30);
-    font-size: 20px;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.aboutMeDiv p{
-    width:650px;
-    color: antiquewhite;
-    font-size:15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-} */
 
 /* ------------------------------------mediaQuery 480px---------------------------- */
 @media (max-width:480px){

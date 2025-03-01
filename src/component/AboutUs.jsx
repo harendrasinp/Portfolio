@@ -5,7 +5,7 @@ export const AboutUs = () => {
     <div className={aboutStyle.container}>
       <div className={aboutStyle.aboutmeBox} data-aos="zoom-in">
         {/* ----------------------------About me-------------------------------------------------------- */}
-        <div class=" text-orange-50  text-center w-4/6">
+        <div class=" text-orange-50  text-center w-5/6">
           <div class="text-orange-500 font-bold text-xl">About Me</div>
           <p class="text-justify">
             I am a passionate and skilled Full-Stack Developer with a strong background in Computer Science. I have always been enthusiastic about building scalable and efficient web applications that enhance user experience.
@@ -13,7 +13,7 @@ export const AboutUs = () => {
         </div>
 
         {/* ----------------------------Education and Training-------------------------------------------------------- */}
-        <div class=" text-orange-50 text-center w-4/6 ">
+        <div class=" text-orange-50 text-center w-5/6 ">
           <div class="text-orange-500 font-bold text-xl"> Education & Training</div>
           <p class="text-justify">
             Master’s in Computer Science from Mumbai University (2015).<br />
@@ -22,7 +22,7 @@ export const AboutUs = () => {
         </div>
 
         {/* ----------------------------Projects I Have Built-------------------------------------------------------- */}
-        <div class=" text-orange-50 w-4/6 text-center">
+        <div class=" text-orange-50 w-5/6 text-center">
           <div class="text-orange-500 font-bold text-xl"> Projects I Have Built</div>
           <ol class="list-decimal list-inside text-orange-50 text-justify ">
             <li><span class='font-bold text-yellow-300'>Online Shopping Platform :</span>  A feature-rich e-commerce application.</li>
@@ -33,7 +33,7 @@ export const AboutUs = () => {
           </ol>
         </div>
 {/* ----------------------------Technical Skills-------------------------------------------------------- */}
-        <div class=" text-orange-50 w-4/6 text-center">
+        <div class=" text-orange-50 w-5/6 text-center">
           <div class="text-orange-500 font-bold text-xl">Technical Skills</div>
           <ol class="text-justify">
             <li>
