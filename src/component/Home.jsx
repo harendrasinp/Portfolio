@@ -4,7 +4,7 @@ import "./Mediaquery.css"
 export const Home = () => {
     return (
         <div className={"homeContainer"}>
-            <div className={"infoBox"}>
+            <div className={"infoBox"} >
                 <div className={"info-title"}>Technologies</div>
                 <div className={"techno-Batch"}>
                     <img src="https://cdn-icons-png.flaticon.com/128/1087/1087840.png" alt="techno" />
@@ -42,7 +42,7 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className={"infoBox"}>
+            <div className={"infoBox"} >
                 <div className={"info-title"}>Projects</div>
                 <div className={"Project"}>
                     <img src="https://cdn-icons-png.flaticon.com/128/4257/4257674.png" alt="Project" />

@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     width:60%;
-    padding: 5px;
+    padding:13px;
     border-radius: 5px;
     backdrop-filter: blur(15px);
     background-color: rgba(250, 235, 215, 0.062);

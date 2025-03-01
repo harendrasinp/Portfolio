@@ -3,8 +3,7 @@ body{
   margin: 0px;
 }
 .appContainer{
-  height: 100vh;
-  /* background-color: rgba(3, 3, 3, 0.952); */
+  min-height: 100vh;
   background-image: url("../public/background.jpg");
   background-size: cover;
 }

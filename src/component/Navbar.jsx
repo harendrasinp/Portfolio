@@ -16,7 +16,7 @@ export const Navbar = () => {
         <Link to={"contact"}>Contact me</Link>
         <Link to={"/aboutUs"}>About me</Link>
         <a href="https://github.com/harendrasinp">
-          <span>Github</span><img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="github" />
+          <span>Github</span><img src="https://cdn-icons-png.flaticon.com/128/11376/11376339.png" alt="github" />
         </a>
       </div>
     </div>
