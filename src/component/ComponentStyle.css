@@ -7,8 +7,7 @@
     height:180px;
 }
 .Profile-name-div{
-    margin-left: 20px;
-    width:780px;
+    width:580px;
     display: flex;
     justify-content:space-around;
     align-items: center;
