@@ -43,10 +43,10 @@ img{
     text-decoration: none;
     font-size: 20px;
     color: white;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .navItemsDiv a:hover{
-    color: yellow;
+    color: rgb(252, 175, 76);
 }
 .navItemsDiv a img{
     width: 35px;
