@@ -21,7 +21,7 @@ export const Contact = () => {
       body: JSON.stringify(formData),
     });
     if(response.ok){
-      alert("email send Successfully")
+      alert("Email sent Successfully to Harendrasinh@VayuSoftwares, will reach to you in next 24 hours")
       setFormData({ name: "", email: "", phone: "",city:"", message: "" });
     }else {
       alert("Failed to send message.");
