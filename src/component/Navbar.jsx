@@ -7,7 +7,7 @@ export const Navbar = () => {
     <div className={"navBar"}>
       <div className={"Profile-name-div"} >
         <img src="/myImage.jpg" alt="my-Image" className={"my-Image"} />
-        <div className="mr-10">
+        <div className="detailContainer">
           <div className={"myName"}>Harendrasinh.R.Parmar</div>
           <div className={"detailDiv"}>
             <p className="text-white font-thin"><span className="font-semibold">Mobile:</span> 9867775626</p>
