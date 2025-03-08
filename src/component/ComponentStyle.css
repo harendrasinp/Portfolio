@@ -1,71 +1,111 @@
 /* ------------------------------Navbar--------------------------------- */
-.navBar{
+.navBar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(33, 33, 34, 0.685);
-    height:180px;
+    height: 180px;
 }
-.Profile-name-div{
-    width:580px;
+
+.Profile-name-div {
+    width: 580px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
-.myName{
+
+.myName {
     font-size: 30px;
     color: rgb(248, 128, 48);
 }
-.my-Image{
+.Profile-name-div img {
+    width: 165px;
     border: 2px solid rgb(253, 158, 33);
-
-}
-img{
-    width:165px;
-    height:165px;
+    height: 165px;
     border-radius: 50%;
 }
-.navItemsDiv{
+.navItemsDiv {
     position: relative;
-    right:180px;
-    width:450px;
+    right: 180px;
+    width: 480px;
+    height:90px;
     display: flex;
-    justify-content:space-between;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     margin-left: 25px;
 }
 
-.navItemsDiv a{
-    width:125px;
+.navbarItem {
     display: flex;
-    justify-content:center;
+}
+.navbarItem a {
+    width: 125px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     font-size: 20px;
     color: white;
     transition: all 0.5s ease-in-out;
 }
-.navItemsDiv a:hover{
+.navbarItem a {
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+} 
+.navbarItem a:hover {
     color: rgb(252, 175, 76);
 }
-.navItemsDiv a img{
+.navbarItem a img {
     width: 35px;
     height: 35px;
-    border-radius: 50%;
     box-shadow: 0px 0px 8px 2px rgb(248, 165, 57);
     margin-left: 5px;
+    border-radius: 50%;
 }
+.downloadsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.downloads {
+    padding: 3px;
+    border-radius: 2px;
+    background-color: rgb(248, 114, 4);
+}
+
+.downloads a {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: antiquewhite;
+    font-size: 18px;
+}
+.downloads img{
+    width: 25px;
+    height: 25px;
+}
+
+
 /* --------------------------------HOME------------------------------ */
-.homeContainer{
+.homeContainer {
     margin-top: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.infoBox{
-    width: 360px;
+
+.infoBox {
+    width:370px;
     height: 220px;
-    border-radius:3px;
+    border-radius: 3px;
     backdrop-filter: blur(15px);
     background-color: rgba(29, 27, 27, 0.5);
     display: flex;
@@ -73,68 +113,80 @@ img{
     flex-direction: column;
     box-shadow: 0px 0px 5px 2px rgb(189, 187, 187);
 }
-.infoBox:hover{
+
+.infoBox:hover {
     cursor: pointer;
     transition: transform 0.5s ease;
     transform: scale(1.1);
 }
-.info-title{
+
+.info-title {
     font-size: 25px;
     color: rgb(212, 212, 211);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* -------------------------------Technology box----------------------------------- */
-.techno-Batch{
+.techno-Batch {
     position: relative;
     top: -32px;
     left: 120px;
 }
-.techno-Batch img{
-    width:35px;
-    height:35px;
+
+.techno-Batch img {
+    width: 35px;
+    height: 35px;
 }
-.tech-list{
-    width: 310px;
+
+.tech-list {
+    width:350px;
     position: relative;
+    left: 15px;
     top: -15px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    row-gap:18px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 18px;
+    
 }
-.tech{
-    width:85px;
+.tech {
+    width:100px;
     display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+    justify-content:start;
     height: 15px;
-    color: rgb(29, 40, 78);
-    font-size:14px;
+    color: rgb(26, 33, 63);
+    font-size:15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.tech img{
-    width:25px;
-    height:25px;
+
+.tech img {
+    width: 25px;
+    height: 25px;
 }
-.tech span:hover{
+
+.tech span:hover {
     color: aqua;
 }
+
 /* -------------------------------------Projects----------------------------------------------- */
-.Project{
-    width:40px;
+.Project {
+    width: 40px;
     position: relative;
-    top:-30px;
+    top: -30px;
     right: -140px;
 }
-.Project img{
-    height:40px;
+
+.Project img {
+    height: 40px;
 }
+
 /* --------------------------------------Achivment box----------------------------------------- */
-.award{
-    width:50px;
+.batch {
+    width: 50px;
     position: relative;
-    top:-40px;
+    top: -40px;
     right: -120px;
 }
-.award img{
-    height:50px;
+
+.batch img {
+    height: 50px;
 }

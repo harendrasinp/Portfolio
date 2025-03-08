@@ -44,7 +44,7 @@ export const AboutUs = () => {
             <li>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
               <span className='font-bold text-yellow-300'>Backend:</span>
-              Node.js, Express.js, MongoDB, Socket.io, Contact API
+              Node.js,Express.js,MongoDB,Socket.io,Contact API
             </li>
             <li>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />

@@ -1,47 +1,25 @@
 import React from 'react'
 import "./ComponentStyle.css"
 import "./Mediaquery.css"
+import { techData } from '../techno.js/techData'
 export const Home = () => {
     return (
         <div className={"homeContainer"}>
+            {/* ----------------------------------------------Technology box-------------------------------------------- */}
             <div className={"infoBox"} >
                 <div className={"info-title"}>Technologies</div>
                 <div className={"techno-Batch"}>
                     <img src="https://cdn-icons-png.flaticon.com/128/1087/1087840.png" alt="techno" />
                 </div>
                 <div className={"tech-list"}>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" alt="js" /><span>Javascript</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="html" /><span>HTML5</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png" alt="css" /><span>Css</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="btrap" /><span>Bootstrap</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/15772/15772797.png" alt="react" /><span>React.js</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://youteam.io/blog/wp-content/uploads/2022/04/expressjs_logo.png" alt="express" /><span>Express.js</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/919/919825.png" alt="Node.js" /><span>Node.js</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/9698/9698555.png" alt="mongodb" /><span>MongoDb</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://cdn-icons-png.flaticon.com/128/919/919852.png" alt="python" /><span>Python</span>
-                    </div>
-                    <div className={"tech"}>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDKn3vA2YUbXzN0ZC3gALWJ08gJN-Drl15w&s" alt="tailwind" /><span>TailwindCss</span>
-                    </div>
+                    {techData.map((tech) => (
+                        <div className={"tech"}>
+                            <img src={tech.image} alt="js" /><span>{tech.name}</span>
+                        </div>
+                    ))}
                 </div>
             </div>
+            {/* --------------------------------------Project box---------------------------------------------------------------- */}
             <div className={"infoBox"} >
                 <div className={"info-title"}>Projects</div>
                 <div className={"Project"}>
@@ -53,14 +31,40 @@ export const Home = () => {
                     <p class=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuchatterup.netlify.app/"> ChatterUp-Online Chatting App</a></p>
                 </div>
             </div>
+            {/* ---------------------------------------------Achivment Box---------------------------------------------------------- */}
             <div className={"infoBox"}>
                 <div className={"info-title"} id='achivment'>Achievements</div>
-                <div className={"award"}>
+                <div className={"batch"}>
                     <img src="https://cdn-icons-png.flaticon.com/128/11881/11881960.png" alt="award" />
                 </div>
-                <div>Process in Deployment</div>
+                <div className='w-[100%] mt-[-45px] p-[6px] flex justify-center flex-col text-blue-950 '>
+                    <div className='flex '>
+                        <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
+                        <a  className="hover:text-orange-500 font-semibold text-[15px]" href="./public/pdf/Certificates/FrontEnd.pdf">Certification of FrontEnd</a>
+                    </div>
+                    <div className='flex'>
+                        <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./public/pdf/Certificates/Excellence-FrontEnd.pdf">Certification of Excellence in FrontEnd</a>
+                    </div>
+                    <div className='flex'>
+                        <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./public/pdf/Certificates/backend-nodejs.pdf">Certification of BackEnd with NodeJs</a>
+                    </div>
+                    <div className='flex'>
+                        <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./public/pdf/Certificates/Excellence-backend.pdf">Certification of Excellence in BackEnd with Node</a>
+                    </div>
+                    <div className='flex'>
+                        <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./public/pdf/Certificates/react.pdf">Certification of Reactjs</a>
+                    </div>
+                    <div className='flex'>
+                        <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="">Certification of Excelence in Reactjs</a>
+                    </div>
+                </div>
             </div>
-            
+
         </div>
     )
 }
