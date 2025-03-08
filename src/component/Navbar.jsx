@@ -33,8 +33,8 @@ export const Navbar = () => {
             <span>Github</span><img src="https://cdn-icons-png.flaticon.com/128/11376/11376339.png" alt="github" />
           </a>
         </div>
-        <div className={"downloadsDiv"}>
-          <div onClick={animationfunc} className={"downloads"}>
+        <div className={"downloadsDiv"} onClick={animationfunc}>
+          <div  className={"downloads"}>
             <a href="./public/pdf/Resumes/HarendrasinhResume2025.pdf" download="Harendrasinh-Resume.pdf">Download
             <img src="https://cdn-icons-png.flaticon.com/128/2311/2311512.png" alt="downloads"/>
             </a>
