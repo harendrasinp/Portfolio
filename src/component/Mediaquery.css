@@ -107,7 +107,8 @@
         display: flex;
         padding: 5px;
         border-radius: 5px;
-        background-color: rgb(255, 123, 0);
+        backdrop-filter: blur(25px);
+        background-color: rgba(247, 132, 26, 0.267);
     }
    
     /* ------------------------------Home-------------------------------------------- */
