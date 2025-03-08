@@ -93,32 +93,23 @@
         height: 35px;
     }
 
-    .downloadsDiv {
-        position: fixed;
-        top: 105%;
-        left: -6px;
+    .downloadDiv{
+        position: absolute;
+        margin-top:230px;
         display: flex;
-        justify-content: start;
-        height: 50px;
-        backdrop-filter: blur(25px);
+        justify-content:center;
+        align-items: center;
+        left:1%;
+        width:120px;
+        height: 40px;
     }
-
-    .downloads {
-        padding: 1px;
+    .downloadLink{
         display: flex;
-        justify-content: center;
-        width: 20px;
-        border-radius: 8px;
-        overflow: hidden;
-        transition: width 0.5s ease-in-out, background-color 0.5s ease-in-out;
-        background-color: gainsboro;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(255, 123, 0);
     }
-
-    .opnAnimation {
-        width: 300px;
-        background-color: orange;
-    }
-
+   
     /* ------------------------------Home-------------------------------------------- */
     .homeContainer {
         height: 800px;

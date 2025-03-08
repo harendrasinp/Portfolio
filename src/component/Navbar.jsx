@@ -1,16 +1,11 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "./ComponentStyle.css"
 import "./Mediaquery.css"
 import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
-  const animationfunc=()=>{
-    const divname=document.querySelector(".downloads");
-    divname.classList.add("opnAnimation");
-    setTimeout(()=>{
-      divname.classList.remove("opnAnimation")
-    },3000)
-}
+  const [animatClass,setAnimateClass]=useState("")
+
   return (
     <div className={"navBar"}>
       <div className={"Profile-name-div"} >
@@ -33,14 +28,14 @@ export const Navbar = () => {
             <span>Github</span><img src="https://cdn-icons-png.flaticon.com/128/11376/11376339.png" alt="github" />
           </a>
         </div>
-        <div className={"downloadsDiv"} onClick={animationfunc}>
-          <div  className={"downloads"}>
-            <a href="./public/pdf/Resumes/HarendrasinhResume2025.pdf" download="Harendrasinh-Resume.pdf">Download
-            <img src="https://cdn-icons-png.flaticon.com/128/2311/2311512.png" alt="downloads"/>
-            </a>
+      </div>
+        <div className={"downloadDiv"}>
+          <div className={"downloadLink"}>
+            <a href="/pdf/Resume/HarendrasinhResume2025.pdf" target="_blank">Download</a>
+            <img className='w-[25px] h-[25px]' src="https://cdn-icons-png.flaticon.com/128/7268/7268609.png" alt="downlaod" />
           </div>
         </div>
-      </div>
+        
     </div>
   )
 }
