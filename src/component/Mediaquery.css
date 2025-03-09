@@ -1,53 +1,62 @@
 /* --------------------------------HOME------------------------------ */
 @media (max-width:480px) {
-
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
     /* -----------------------------------App------------------------------------- */
-    .appContainer {
-        height: 100%;
+    /* .appContainer {
+        height:100vh;
         width: 100vw;
-
         background-image: url("/background.jpg");
-        background-size: cover;
+        background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
-    }
+    } */
 
-    /* --------------------------------navbar------------------------------------------- */
+/* --------------------------------navbar------------------------------------------- */
     .navBar{
+        position: fixed;
+        top:0px;
         display: flex;
+        width: 100%;
+        height: 35%;
         flex-direction: column;
-        justify-content:space-between;
         align-items: center;
-        width:100vw;
-        height:35%;
+        justify-content: space-evenly;
+        z-index: 5;
+
     }
     .Profile-name-div{
-        width:100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .Profile-name-div img{
-        width:110px;
-        height:110px;
-    }
-    .detailContainer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .detailDiv{
         width: 100%;
         display: flex;
+        align-items: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
+    }
+    .detailDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
     }
+    .Profile-name-div img{
+        width:100px;
+        height:100px;
+    }
 /* ---------------------------navbar links------------------------------- */
-
+.navbarItem{
+    width:360px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top:-2px;
+    left:8px;
+}
 /* ---------------------------download Component--------------------- */
     .downloadDiv {
         position: absolute;
-        margin-top:5%;
+        margin-top:45%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -66,7 +75,6 @@
     /* ------------------------------Home-------------------------------------------- */
     .homeContainer {
         height: 800px;
-        margin-top:-38%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -74,6 +82,6 @@
     }
     .infoBox {
         position: relative;
-        top: 25%;
+        top:25%;
     }
 }

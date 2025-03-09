@@ -1,7 +1,7 @@
 import "./ComponentStyle.css"
 import "./Mediaquery.css"
 import { Download } from './Download'
-import { NavItems } from "./NavItems"
+import { Link } from "react-router-dom"
 
 export const Navbar = () => {
 
@@ -12,14 +12,25 @@ export const Navbar = () => {
           <img src="/myImage.jpg" alt="my-Image" />
           <div className="detailContainer ">
             <div className={"detailDiv"}>
-              <div className='text-[20px] font-semibold text-orange-600'>Harendrasinh.R.Parmar</div>
-              <div className='text-gray-50 font-semibold'>Mobile: 9867775626</div>
-              <div className='text-gray-50 font-semibold'>Email:haren111990@gmail.com</div>
+              <div className='text-[25px] font-semibold text-orange-500'>Harendrasinh.R.Parmar</div>
+              <div className='text-gray-50'>Mobile: 9867775626</div>
+              <div className='text-gray-50'>Email:haren111990@gmail.com</div>
               <hr />
             </div>
           </div>
         </div>
-        <NavItems/>
+        <div>
+            <div className={"navbarItem"}>
+              <div><Link to={"/"}>Home</Link></div>
+              <div><Link to={"contact"}>Contact me</Link></div>
+              <div><Link to={"/aboutUs"}>About me</Link></div>
+              <div className="gitDiv">
+                <a href="https://github.com/harendrasinp">
+                  <span>Github</span><img src="https://cdn-icons-png.flaticon.com/128/11376/11376339.png" alt="github" />
+                </a>
+              </div>
+            </div>
+          </div>
       </div>
       <Download />
     </div>
