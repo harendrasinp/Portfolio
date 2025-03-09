@@ -37,26 +37,26 @@ export const Contact = () => {
           <form onSubmit={handleForm}>
             <div className="grid gap-6 mb-6 md:grid-cols-2">
               <div>
-                <label for="first_name" className="block mb-1 text-[15px]  font-medium text-orange-400 dark:text-white">First name</label>
+                <label for="first_name" className="block mb-1 text-[15px]  font-medium text-orange-400 dark:text-orange-500">First name</label>
                 <input onChange={handleChange} value={formData.name} name="name"type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Vayu" required />
               </div>
               <div>
-                <label for="phone" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-white">Phone number</label>
+                <label for="phone" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-orange-500">Phone number</label>
                 <input onChange={handleChange} value={formData.phone}name="phone" type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="9987658982" pattern="[0-9]{10}" required />
               </div>
             </div>
             <div className="grid gap-6 mb-6 md:grid-cols-2">
               <div>
-                <label for="email" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-white">Your Email</label>
+                <label for="email" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-orange-500">Your Email</label>
                 <input onChange={handleChange} value={formData.email} name="email" type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="haren128@gmail.com" required />
               </div>
               <div>
-                <label for="city" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-white">City</label>
+                <label for="city" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-orange-500">City</label>
                 <input onChange={handleChange} value={formData.city} name="city" type="text" id="city" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your City" required />
               </div>
             </div>
 
-            <label for="message" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-white">Your message</label>
+            <label for="message" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-orange-500">Your message</label>
             <textarea onChange={handleChange} value={formData.message} name="message" id="message" rows="4" className="block p-2.5 w-full text-sm mb-2 text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your message here..."></textarea>
 
             <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
