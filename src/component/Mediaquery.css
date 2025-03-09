@@ -95,13 +95,14 @@
 
     .downloadDiv{
         position: absolute;
-        margin-top:230px;
+        margin-top:45%;
         display: flex;
         justify-content:center;
         align-items: center;
-        left:1%;
+        left:-5%;
         width:120px;
         height: 40px;
+
     }
     .downloadLink{
         display: flex;

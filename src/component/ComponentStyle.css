@@ -71,7 +71,7 @@
 }
 .downloadDiv{
     position: absolute;
-    margin-top:55px;
+    margin-top:-6%;
     display: flex;
     justify-content:center;
     align-items: center;
