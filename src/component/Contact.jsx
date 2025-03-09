@@ -37,7 +37,7 @@ export const Contact = () => {
           <form onSubmit={handleForm}>
             <div className="grid gap-6 mb-6 md:grid-cols-2">
               <div>
-                <label for="first_name" className="block mb-1 text-[15px]  font-medium text-orange-400 dark:text-orange-500">First name</label>
+                <label for="first_name" className="block mb-1 text-[15px]  font-medium text-orange-400 dark:text-orange-500">Your name</label>
                 <input onChange={handleChange} value={formData.name} name="name"type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Vayu" required />
               </div>
               <div>
@@ -51,7 +51,7 @@ export const Contact = () => {
                 <input onChange={handleChange} value={formData.email} name="email" type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="haren128@gmail.com" required />
               </div>
               <div>
-                <label for="city" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-orange-500">City</label>
+                <label for="city" className="block mb-1 text-[15px] font-medium text-orange-400 dark:text-orange-500">Your City</label>
                 <input onChange={handleChange} value={formData.city} name="city" type="text" id="city" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your City" required />
               </div>
             </div>

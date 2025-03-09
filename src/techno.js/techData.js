@@ -47,5 +47,10 @@ export const techData=[
     {
         name:"css",
         image:"https://cdn-icons-png.flaticon.com/128/5968/5968267.png"
+    },
+    
+    {
+        name:"Git",
+        image:"https://cdn-icons-png.flaticon.com/128/6577/6577287.png"
     }
 ]

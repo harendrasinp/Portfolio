@@ -60,7 +60,7 @@ export const Home = () => {
                     </div>
                     <div className='flex'>
                         <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
-                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="">Certification of Excelence in Reactjs</a>
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="/pdf/Certificates/Excellent-React.pdf" target="_blank">Certification of Excelence in Reactjs</a>
                     </div>
                 </div>
             </div>
