@@ -52,8 +52,8 @@
 }
 /* ---------------------------download Component--------------------- */
    .downloadButtonDIv{
-    position:absolute;
-    top:30px;
+    position:relative;
+    top:2%;
     left:-7px;
    
    }
