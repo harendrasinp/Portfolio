@@ -19,20 +19,23 @@ export const Navbar = () => {
             </div>
           </div>
         </div>
-        <div>
-            <div className={"navbarItem"}>
-              <div><Link to={"/"}>Home</Link></div>
-              <div><Link to={"contact"}>Contact me</Link></div>
-              <div><Link to={"/aboutUs"}>About me</Link></div>
-              <div className="gitDiv">
-                <a href="https://github.com/harendrasinp">
-                  <span>Github</span><img src="https://cdn-icons-png.flaticon.com/128/11376/11376339.png" alt="github" />
-                </a>
-              </div>
+        <div className="navAndDownload">
+          <div className={"navbarItem"}>
+            <div><Link to={"/"}>Home</Link></div>
+            <div><Link to={"contact"}>Contact me</Link></div>
+            <div><Link to={"/aboutUs"}>About me</Link></div>
+            <div className="gitDiv">
+              <a href="https://github.com/harendrasinp">
+                <span>Github</span><img src="https://cdn-icons-png.flaticon.com/128/11376/11376339.png" alt="github" />
+              </a>
             </div>
           </div>
+          <div className={"downloadButtonDIv"}>
+            <Download />
+          </div>
+        </div>
       </div>
-      <Download />
+
     </div>
   )
 }

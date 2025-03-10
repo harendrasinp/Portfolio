@@ -1,18 +1,15 @@
 /* --------------------------------HOME------------------------------ */
 @media (max-width:480px) {
-    body{
-        padding: 0px;
-        margin: 0px;
-    }
     /* -----------------------------------App------------------------------------- */
-    /* .appContainer {
-        height:100vh;
-        width: 100vw;
+    .appContainer {
+        height: 100%;
+        width: 100%;
         background-image: url("/background.jpg");
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
-    } */
+        position:absolute;
+    }
 
 /* --------------------------------navbar------------------------------------------- */
     .navBar{
@@ -20,7 +17,7 @@
         top:0px;
         display: flex;
         width: 100%;
-        height: 35%;
+        height: 34%;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -41,8 +38,8 @@
         align-items: center;
     }
     .Profile-name-div img{
-        width:100px;
-        height:100px;
+        width:102px;
+        height:102px;
     }
 /* ---------------------------navbar links------------------------------- */
 .navbarItem{
@@ -50,29 +47,18 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    top:-2px;
+    top:-18px;
     left:8px;
 }
 /* ---------------------------download Component--------------------- */
-    .downloadDiv {
-        position: absolute;
-        margin-top:45%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        left: 1%;
-        width: 120px;
-        height: 40px;
-    }
-    .downloadLink {
-        display: flex;
-        padding: 5px;
-        border-radius: 5px;
-        backdrop-filter: blur(25px);
-        background-color: rgba(247, 133, 26, 0.767);
-    }
-
-    /* ------------------------------Home-------------------------------------------- */
+   .downloadButtonDIv{
+    position:absolute;
+    top:30px;
+    left:-7px;
+   
+   }
+ 
+/* ------------------------------Home-------------------------------------------- */
     .homeContainer {
         height: 800px;
         display: flex;
@@ -82,6 +68,6 @@
     }
     .infoBox {
         position: relative;
-        top:25%;
+        top:25%
     }
 }

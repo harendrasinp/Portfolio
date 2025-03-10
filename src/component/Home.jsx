@@ -2,9 +2,11 @@ import React from 'react'
 import "./ComponentStyle.css"
 import "./Mediaquery.css"
 import { techData } from '../techno.js/techData'
+import { Download } from './Download'
 export const Home = () => {
     return (
         <div className={"homeContainer"}>
+
             {/* ----------------------------------------------Technology box-------------------------------------------- */}
             <div className={"infoBox"} >
                 <div className={"info-title"}>Technologies</div>
@@ -26,9 +28,9 @@ export const Home = () => {
                     <img src="https://cdn-icons-png.flaticon.com/128/4257/4257674.png" alt="Project" />
                 </div>
                 <div>
-                    <p class=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://buy-busy-ten.vercel.app/"> BuBusy-Online Shoping App</a></p>
-                    <p class=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuphotopholio.netlify.app/"> Photofolio-Online album App</a></p>
-                    <p class=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuchatterup.netlify.app/"> ChatterUp-Online Chatting App</a></p>
+                    <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://buy-busy-ten.vercel.app/"> BuBusy-Online Shoping App</a></p>
+                    <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuphotopholio.netlify.app/"> Photofolio-Online album App</a></p>
+                    <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuchatterup.netlify.app/"> ChatterUp-Online Chatting App</a></p>
                 </div>
             </div>
             {/* ---------------------------------------------Achivment Box---------------------------------------------------------- */}
