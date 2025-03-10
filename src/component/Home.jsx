@@ -33,6 +33,8 @@ export const Home = () => {
                     <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://buy-busy-ten.vercel.app/"> BuBusy-Online Shoping App</a></p>
                     <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuphotopholio.netlify.app/"> Photofolio-Online album App</a></p>
                     <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuchatterup.netlify.app/"> ChatterUp-Online Chatting App</a></p>
+
+                    <div className='text-red-600'>(This Area of the web is Under  Updating Process) </div>
                 </div>
             </div>
             {/* ---------------------------------------------Achivment Box---------------------------------------------------------- */}
