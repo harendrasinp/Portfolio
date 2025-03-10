@@ -53,9 +53,8 @@
 /* ---------------------------download Component--------------------- */
    .downloadButtonDIv{
     position:relative;
-    top:2%;
-    left:-7px;
-   
+    top:0.1rem;
+    left: -0.5rem;
    }
  
 /* ------------------------------Home-------------------------------------------- */
@@ -68,6 +67,6 @@
     }
     .infoBox {
         position: relative;
-        top:25%
+        top:26%
     }
 }
