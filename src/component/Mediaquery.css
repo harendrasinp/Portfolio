@@ -17,7 +17,7 @@
         top:0px;
         display: flex;
         width: 100%;
-        height: 34%;
+        height:14.2rem;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
@@ -43,7 +43,7 @@
     }
 /* ---------------------------navbar links------------------------------- */
 .navbarItem{
-    width:360px;
+    width:21rem;
     position: relative;
     display: flex;
     justify-content: space-between;
