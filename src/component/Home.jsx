@@ -6,7 +6,9 @@ import { Download } from './Download'
 export const Home = () => {
     return (
         <div className={"homeContainer"}>
-
+            <div className="block md:hidden mt-[11.5rem]">
+                <Download />
+            </div>
             {/* ----------------------------------------------Technology box-------------------------------------------- */}
             <div className={"infoBox"} >
                 <div className={"info-title"}>Technologies</div>
@@ -14,7 +16,7 @@ export const Home = () => {
                     <img src="https://cdn-icons-png.flaticon.com/128/1087/1087840.png" alt="techno" />
                 </div>
                 <div className={"tech-list"}>
-                    {techData.map((tech,index) => (
+                    {techData.map((tech, index) => (
                         <div key={index} className={"tech"}>
                             <img src={tech.image} alt="js" /><span>{tech.name}</span>
                         </div>
@@ -42,23 +44,23 @@ export const Home = () => {
                 <div className='w-[100%] mt-[-45px] p-[6px] flex justify-center flex-col text-blue-950 '>
                     <div className='flex '>
                         <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
-                        <a  className="hover:text-orange-500 font-semibold text-[15px]" href="/pdf/Certificates/FrontEnd.pdf"  target="_blank">Certification of FrontEnd</a>
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="/pdf/Certificates/FrontEnd.pdf" target="_blank">Certification of FrontEnd</a>
                     </div>
                     <div className='flex'>
                         <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
-                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./pdf/Certificates/Excellence-FrontEnd.pdf"  target="_blank">Certification of Excellence in FrontEnd</a>
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./pdf/Certificates/Excellence-FrontEnd.pdf" target="_blank">Certification of Excellence in FrontEnd</a>
                     </div>
                     <div className='flex'>
                         <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
-                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./public/pdf/Certificates/backend-nodejs.pdf"  target="_blank">Certification of BackEnd with NodeJs</a>
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="./public/pdf/Certificates/backend-nodejs.pdf" target="_blank">Certification of BackEnd with NodeJs</a>
                     </div>
                     <div className='flex'>
                         <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
-                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="/pdf/Certificates/Excellence-backend.pdf"  target="_blank">Certification of Excellence in BackEnd with Node</a>
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="/pdf/Certificates/Excellence-backend.pdf" target="_blank">Certification of Excellence in BackEnd with Node</a>
                     </div>
                     <div className='flex'>
                         <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />
-                         <a className="hover:text-orange-500 font-semibold text-[15px]" href="/pdf/Certificates/react.pdf" target="_blank">Certification of Reactjs</a> 
+                        <a className="hover:text-orange-500 font-semibold text-[15px]" href="/pdf/Certificates/react.pdf" target="_blank">Certification of Reactjs</a>
                     </div>
                     <div className='flex'>
                         <img className='w-[25px] h-[25px] mr-[2px]' src="https://cdn-icons-png.flaticon.com/128/2679/2679078.png" alt="certificate" />

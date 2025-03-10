@@ -23,7 +23,7 @@
 .navbarItem{
     position: relative;
     top:-30px;
-    right:32%;
+    right:35%;
     width:450px;
     display: flex;
     justify-content:space-between;
@@ -48,16 +48,8 @@
     position: relative;
     top:15px;
 }
-/* ---------------------download button position-------------------------- */
-.downloadButtonDIv{
-    position: relative;
-    top: -15px;
-    left:42%;
-    width:120px;
-}
-.mobileDownload{
-    display: none;
-}
+
+
 /* --------------------------------HOME------------------------------ */
 .homeContainer {
     margin-top: 60px;

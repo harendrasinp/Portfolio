@@ -39,7 +39,7 @@ export const AboutUs = () => {
             <li>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
               <span className='font-bold text-yellow-300 '>Frontend: </span>
-              HTML, CSS, JavaScript, React.js, Redux, Redux Toolkit,Tailwind CSS, Bootstrap
+              HTML,CSS,JavaScript,React.js,Redux,Redux Toolkit,Tailwind CSS, Bootstrap
             </li>
             <li>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />

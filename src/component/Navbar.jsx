@@ -1,7 +1,8 @@
 import "./ComponentStyle.css"
 import "./Mediaquery.css"
 import { Download } from './Download'
-import { Link } from "react-router-dom"
+import { Link} from "react-router-dom"
+
 
 export const Navbar = () => {
 
@@ -30,8 +31,8 @@ export const Navbar = () => {
               </a>
             </div>
           </div>
-          <div className={"downloadButtonDIv"}>
-            <Download />
+          <div className={"hidden md:block w-fit ml-auto mr-auto"}>
+            <Download/>
           </div>
         </div>
       </div>
