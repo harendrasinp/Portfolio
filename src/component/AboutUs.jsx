@@ -23,13 +23,31 @@ export const AboutUs = () => {
         {/* ----------------------------Projects I Have Built-------------------------------------------------------- */}
         <div className=" text-orange-50 w-5/6 text-center">
           <div className="text-orange-500 font-bold text-xl"> Projects I Have Built</div>
-          <ol className="list-decimal list-inside text-orange-50 text-justify ">
-            <li><span className='font-bold text-yellow-300'>Online Shopping Platform:</span>A feature-rich e-commerce application.</li>
-            <li><span className='font-bold text-yellow-300'>Online Job Portal:</span>A platform connecting job seekers and recruiters.</li>
-            <li><span className='font-bold text-yellow-300'>PhotoPholio:</span>A portfolio website for photographers.</li>
-            <li><span className='font-bold text-yellow-300'>Chatting App:</span>A real-time chat application using WebSockets.</li>
-            <li><span className='font-bold text-yellow-300'>Personal Portfolio:</span>Showcasing my skills and projects.</li>
-          </ol>
+          <div className="list-decimal list-inside text-orange-50 text-justify ">
+
+            <div>
+              1.<span className='font-bold text-yellow-300'>Online Shopping Platform:</span>
+              A feature-rich e-commerce application.
+            </div>
+            <div>
+              2.<span className='font-bold text-yellow-300'>Online Job Portal:</span>
+              A platform connecting job seekers and recruiters.
+            </div>
+
+            <div>
+              3.<span className='font-bold text-yellow-300'>PhotoPholio:</span>
+              A portfolio website for photographers.
+            </div>
+
+            <div>
+              4.<span className='font-bold text-yellow-300'>Chatting App:</span>
+              A real-time chat application using WebSockets.
+            </div>
+
+            <div>
+              <span className='font-bold text-yellow-300'>Personal Portfolio:</span>
+              Showcasing my skills and projects.</div>
+            </div>
         </div>
         {/* ----------------------------Technical Skills-------------------------------------------------------- */}
         <div className=" text-orange-50 w-5/6 text-center">
@@ -37,22 +55,22 @@ export const AboutUs = () => {
           <ol className="text-justify">
 
             <li className='flex'>
-              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
+              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2" />
               <div><span className='font-bold text-yellow-300'>Frontend:</span>
-              HTML,CSS,JavaScript,React.js, Tailwind, Bootstrap</div>
+                HTML,CSS,JavaScript,React.js, Tailwind, Bootstrap</div>
             </li>
 
             <li className='flex'>
-              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
+              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2" />
               <div>
-              <span className='font-bold text-yellow-300'>Backend:</span>
-              Node.js,Express.js,Django</div>
+                <span className='font-bold text-yellow-300'>Backend:</span>
+                Node.js,Express.js,Django</div>
             </li>
 
             <li className='flex'>
-              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
+              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2" />
               <div><span className='font-bold text-yellow-300'>Database:</span>
-              MongoDB,PostgreSQL,Firebase
+                MongoDB,PostgreSQL,Firebase
               </div>
             </li>
           </ol>
