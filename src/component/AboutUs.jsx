@@ -3,7 +3,7 @@ export const AboutUs = () => {
   return (
     <div className='mt-[14.8rem] lg:mt-0 lg:flex justify-center h-[40rem] w-full'>
 
-      <div className='w-[24.5rem] h-[50rem] bg-black/30 backdrop-blur lg:w-[50rem] lg:mt-[1rem] lg:h-[35rem] bg-slate-500'data-aos="zoom-in">
+      <div className='w-[24.6rem] h-[50rem] bg-black/30 backdrop-blur lg:w-[50rem] lg:mt-[1rem] lg:h-[35rem] bg-slate-500'data-aos="zoom-in">
 
         {/* ----------------------------About me-------------------------------------------------------- */}
         <div className="flex justify-center flex-col items-center">
