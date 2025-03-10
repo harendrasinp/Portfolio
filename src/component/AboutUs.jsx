@@ -38,21 +38,21 @@ export const AboutUs = () => {
 
             <li className='flex'>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
-              <div className='inline-block'><span className='font-bold text-yellow-300'>Frontend :</span>
-               HTML, CSS, JavaScript, React.js, Redux, Redux Toolkit,Tailwind CSS, Bootstrap </div>
+              <div className='inline-block'><span className='font-bold text-yellow-300'>Frontend:</span>
+              HTML,CSS,JavaScript,React.js,Redux,ReduxToolkit,Tailwind CSS,Bootstrap</div>
             </li>
 
             <li className='flex'>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
               <div className='inline-block'>
-              <span className='font-bold text-yellow-300'>Backend :</span>
-              Node.js, Express.js, MongoDB, Socket.io, Contact API</div>
+              <span className='font-bold text-yellow-300'>Backend:</span>
+              Node.js,Express.js,Django</div>
             </li>
 
             <li className='flex'>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
-              <div className='inline-block'><span className='font-bold text-yellow-300'>Languages :</span>
-                JavaScript,Python,HTML,
+              <div className='inline-block'><span className='font-bold text-yellow-300'>Database:</span>
+              MongoDB,PostgreSQL,Firebase
               </div>
             </li>
           </ol>
