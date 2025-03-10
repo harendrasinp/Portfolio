@@ -24,11 +24,11 @@ export const AboutUs = () => {
         <div className=" text-orange-50 w-5/6 text-center">
           <div className="text-orange-500 font-bold text-xl"> Projects I Have Built</div>
           <ol className="list-decimal list-inside text-orange-50 text-justify ">
-            <li><span className='font-bold text-yellow-300'>Online Shopping Platform :</span>  A feature-rich e-commerce application.</li>
-            <li><span className='font-bold text-yellow-300'>Online Job Portal :</span>  A platform connecting job seekers and recruiters.</li>
-            <li><span className='font-bold text-yellow-300'>PhotoPholio :</span>  A portfolio website for photographers.</li>
-            <li><span className='font-bold text-yellow-300'>Chatting App : </span>  A real-time chat application using WebSockets.</li>
-            <li><span className='font-bold text-yellow-300'>Personal Portfolio :</span>  Showcasing my skills and projects.</li>
+            <li><span className='font-bold text-yellow-300'>Online Shopping Platform:</span>A feature-rich e-commerce application.</li>
+            <li><span className='font-bold text-yellow-300'>Online Job Portal:</span>A platform connecting job seekers and recruiters.</li>
+            <li><span className='font-bold text-yellow-300'>PhotoPholio:</span>A portfolio website for photographers.</li>
+            <li><span className='font-bold text-yellow-300'>Chatting App:</span>A real-time chat application using WebSockets.</li>
+            <li><span className='font-bold text-yellow-300'>Personal Portfolio:</span>Showcasing my skills and projects.</li>
           </ol>
         </div>
         {/* ----------------------------Technical Skills-------------------------------------------------------- */}
