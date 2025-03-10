@@ -2,7 +2,7 @@ import React from 'react'
 export const AboutUs = () => {
   return (
     <div className="flex justify-center items-center">
-      <div className=" md:mt-[0.5rem] bg-gray-500 w-[60rem] mt-60 flex  justify-center items-center flex-col"data-aos="zoom-in">
+      <div className=" md:mt-[0.5rem] bg-gray-500 w-[60rem] mt-60 flex  justify-center items-center flex-col" data-aos="zoom-in">
         {/* ----------------------------About me-------------------------------------------------------- */}
         <div className=" text-orange-50  text-center w-5/6">
           <div className="text-orange-500 font-bold text-xl">About Me</div>
@@ -31,24 +31,29 @@ export const AboutUs = () => {
             <li><span className='font-bold text-yellow-300'>Personal Portfolio :</span>  Showcasing my skills and projects.</li>
           </ol>
         </div>
-{/* ----------------------------Technical Skills-------------------------------------------------------- */}
+        {/* ----------------------------Technical Skills-------------------------------------------------------- */}
         <div className=" text-orange-50 w-5/6 text-center">
           <div className="text-orange-500 font-bold text-xl">Technical Skills</div>
           <ol className="text-justify">
-            <li>
-              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
-              <div className='font-bold text-yellow-300  inline-block'>Frontend: </div>
-              <span>HTML, CSS, JavaScript, React.js, Redux, Redux Toolkit,Tailwind CSS, Bootstrap</span>
+
+            <li className='flex'>
+              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
+              <div className='inline-block'><span className='font-bold text-yellow-300'>Frontend :</span>
+               HTML, CSS, JavaScript, React.js, Redux, Redux Toolkit,Tailwind CSS, Bootstrap </div>
             </li>
-            <li>
-              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
-              <div className='font-bold text-yellow-300 inline-block'>Backend:</div>
-              <span>Node.js, Express.js, MongoDB, Socket.io, Contact API</span>
+
+            <li className='flex'>
+              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
+              <div className='inline-block'>
+              <span className='font-bold text-yellow-300'>Backend :</span>
+              Node.js, Express.js, MongoDB, Socket.io, Contact API</div>
             </li>
-            <li>
-              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
-              <div className='font-bold  text-yellow-300 inline-block'>Programming Languages:</div>
-              <span>Python, JavaScript</span>
+
+            <li className='flex'>
+              <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2"/>
+              <div className='inline-block'><span className='font-bold text-yellow-300'>Languages :</span>
+                JavaScript,Python,HTML,
+              </div>
             </li>
           </ol>
         </div>
