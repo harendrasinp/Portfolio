@@ -25,6 +25,8 @@
 
     }
     .Profile-name-div{
+        position: relative;
+        top: 0.2rem;
         width: 100%;
         display: flex;
         align-items: center;
