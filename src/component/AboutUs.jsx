@@ -3,12 +3,12 @@ export const AboutUs = () => {
   return (
     <div className='mt-[14.8rem] lg:mt-0 lg:flex justify-center h-[40rem] w-full'>
 
-      <div className='w-[24.6rem] h-[50rem] bg-black/30 backdrop-blur lg:w-[50rem] lg:mt-[1rem] lg:h-[35rem] bg-slate-500'data-aos="zoom-in">
-
+      <div className='w-[24.6rem] h-[50rem] bg-black/15 backdrop-blur-md lg:w-[50rem] lg:mt-[1rem] lg:h-[35rem] bg-slate-500'data-aos="zoom-in">
+        <div className='w-[4rem]'><img src="https://cdn-icons-png.flaticon.com/128/3705/3705611.png" alt="pin" /></div>
         {/* ----------------------------About me-------------------------------------------------------- */}
-        <div className="flex justify-center flex-col items-center">
+        <div className="flex justify-center flex-col items-center lg:mt-[1rem]">
           <div className="text-orange-500 text-[1.2rem] font-semibold lg:text-[1.5rem] lg:font-semibold">About Me</div>
-          <div className=" text-yellow-100 w-[22rem] text-justify lg:w-[40rem]">
+          <div className=" text-blue-950 w-[22rem] text-justify lg:w-[40rem]">
             I am a passionate and skilled Full-Stack Developer with a strong background in Computer Science. I have always been enthusiastic about building scalable and efficient web applications that enhance user experience.
           </div>
         </div>
@@ -16,37 +16,36 @@ export const AboutUs = () => {
         {/* ----------------------------Education and Training-------------------------------------------------------- */}
         <div className="flex justify-center items-center flex-col">
           <div className="text-orange-500 font-semibold text-[1.2rem]">Education & Training</div>
-          <div className='text-yellow-100 w-[22rem] lg:w-[28rem]'>Master’s in Computer Science from Mumbai University (2015).</div>
-          <div className='text-yellow-100 w-[22rem] lg:w-[28rem]'>Full-Stack Development Training from Coding Ninja's(2024).</div>
+          <div className='text-blue-950 w-[22rem] lg:w-[28rem]'>Master’s in Computer Science from Mumbai University (2015).</div>
+          <div className='text-blue-950 w-[22rem] lg:w-[28rem]'>Full-Stack Development Training from Coding Ninja's(2024).</div>
         </div>
         {/* ----------------------------Projects I Have Built-------------------------------------------------------- */}
         <div className="flex justify-center items-center flex-col">
           <div className="text-orange-500 font-semibold text-[1.2rem]"> Projects I Have Built</div>
-          <div className='text-yellow-100 w-[22rem] lg:w-[32rem]'>
+          <div className='text-blue-950 w-[22rem] lg:w-[32rem]'>
             <div className="">
-
               <div>
-                1.<span className=''>Online Shopping Platform:</span>
+                1.<span className='text-orange-600 font-semibold'>Online Shopping Platform:</span>
                 A feature-rich e-commerce application.
               </div>
 
               <div>
-                2.<span className=''>Online Job Portal:</span>
+                2.<span className='text-orange-600 font-semibold'>Online Job Portal:</span>
                 A platform connecting job seekers and recruiters.
               </div>
 
               <div>
-                5.<span className=''>Chatting App:</span>
+                5.<span className='text-orange-600 font-semibold'>Chatting App:</span>
                 A real-time chat application using WebSockets.
               </div>
 
               <div>
-                3.<span className=''>PhotoPholio:</span>
+                3.<span className='text-orange-600 font-semibold'>PhotoPholio:</span>
                 A portfolio website for photographers.
               </div>
 
               <div>
-                4.<span className=''>Personal Portfolio:</span>
+                4.<span className='text-orange-600 font-semibold'>Personal Portfolio:</span>
                 Showcasing my skills and projects.
               </div>
             </div>
@@ -55,23 +54,23 @@ export const AboutUs = () => {
         {/* ----------------------------Technical Skills-------------------------------------------------------- */}
         <div className="flex justify-center items-center flex-col">
           <div className="text-orange-500 font-semibold text-[1.2rem]">Technical Skills</div>
-          <div className=' text-yellow-100 w-[22rem] lg:w-[32rem]'>
+          <div className=' text-blue-950 w-[22rem] lg:w-[32rem]'>
             <div className='flex'>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2" />
-              <div><span className='font-bold text-yellow-300'>Frontend:</span>
+              <div><span className='font-bold text-orange-600'>Frontend:</span>
                 HTML,CSS,JavaScript,React.js, Tailwind, Bootstrap</div>
             </div>
 
             <div className='flex'>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2" />
               <div>
-                <span className='font-bold text-yellow-300'>Backend:</span>
+                <span className='font-bold text-orange-600'>Backend:</span>
                 Node.js,Express.js,Django</div>
             </div>
 
             <div className='flex'>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2" />
-              <div><span className='font-bold text-yellow-300'>Database:</span>
+              <div><span className='font-bold text-orange-600'>Database:</span>
                 MongoDB,PostgreSQL,Firebase
               </div>
             </div>
