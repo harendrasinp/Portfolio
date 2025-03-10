@@ -1,9 +1,8 @@
 import React from 'react'
-import aboutStyle from "./Aboutme.module.css"
 export const AboutUs = () => {
   return (
-    <div className={aboutStyle.container}>
-      <div className={aboutStyle.aboutmeBox} data-aos="zoom-in">
+    <div className="flex justify-center items-center">
+      <div className=" md:mt-[0.5rem] bg-gray-500 w-[60rem] mt-60 flex  justify-center items-center flex-col"data-aos="zoom-in">
         {/* ----------------------------About me-------------------------------------------------------- */}
         <div className=" text-orange-50  text-center w-5/6">
           <div className="text-orange-500 font-bold text-xl">About Me</div>
@@ -38,18 +37,18 @@ export const AboutUs = () => {
           <ol className="text-justify">
             <li>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
-              <span className='font-bold text-yellow-300 '>Frontend: </span>
-              HTML,CSS,JavaScript,React.js,Redux,Redux Toolkit,Tailwind CSS, Bootstrap
+              <div className='font-bold text-yellow-300  inline-block'>Frontend: </div>
+              <span>HTML, CSS, JavaScript, React.js, Redux, Redux Toolkit,Tailwind CSS, Bootstrap</span>
             </li>
             <li>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
-              <span className='font-bold text-yellow-300'>Backend:</span>
-              Node.js,Express.js,MongoDB,Socket.io,Contact API
+              <div className='font-bold text-yellow-300 inline-block'>Backend:</div>
+              <span>Node.js, Express.js, MongoDB, Socket.io, Contact API</span>
             </li>
             <li>
               <img src='https://cdn-icons-png.flaticon.com/128/1271/1271269.png' alt='right' className="w-6 h-6 mr-2 inline-block" />
-              <span className='font-bold  text-yellow-300'>Programming Languages:</span>
-              Python, JavaScript
+              <div className='font-bold  text-yellow-300 inline-block'>Programming Languages:</div>
+              <span>Python, JavaScript</span>
             </li>
           </ol>
         </div>
