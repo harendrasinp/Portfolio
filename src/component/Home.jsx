@@ -24,15 +24,31 @@ export const Home = () => {
                 </div>
             </div>
             {/* --------------------------------------Project box---------------------------------------------------------------- */}
-            <div className={"infoBox"} >
-                <div className={"info-title"}>Projects</div>
-                <div className={"Project"}>
-                    <img src="https://cdn-icons-png.flaticon.com/128/4257/4257674.png" alt="Project" />
+            <div className=" flex flex-col shadow-md bg-black/40 w-[23.5rem] h-[13.8rem] rounded-[0.2rem] trasition duration-700 hover:scale-110 cursor-pointer">
+                <div className='flex justify-between'>
+                    <div className=" text-gray-200 text-[1.5rem] ml-[9rem]">Projects</div>
+                    <div className=" mr-[2rem]">
+                        <img className='w-[2rem]' src="https://cdn-icons-png.flaticon.com/128/4257/4257674.png" alt="Project" />
+                    </div>
                 </div>
-                <div>
-                    <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://shopingbuybusy.netlify.app/"> BuBusy-Online Shoping App</a></p>
-                    <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuphotopholio.netlify.app/"> Photofolio-Online album App</a></p>
-                    <p className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white"><a href="https://vayuchatterup.netlify.app/"> ChatterUp-Online Chatting App</a></p>
+                <div className='flex justify-center items-center flex-col mt-4'>
+
+                    <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white">
+                        <a href="https://vayuurlshortner.netlify.app/" target='_blanck'>UrlShortner</a>
+                    </div>
+
+                    <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white" >
+                        <a href="https://shopingbuybusy.netlify.app/" target='_blanck'> BuBusy-Online Shoping App</a>
+                    </div>
+
+                    <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white">
+                        <a href="https://vayuphotopholio.netlify.app/" target='_blanck'> Photofolio-Online album App</a>
+                    </div>
+
+                    <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white">
+                        <a href="https://vayuchatterup.netlify.app/" target='_blanck'> ChatterUp-Online Chatting App</a>
+                    </div>
+
                 </div>
             </div>
             {/* ---------------------------------------------Achivment Box---------------------------------------------------------- */}

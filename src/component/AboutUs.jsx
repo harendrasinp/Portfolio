@@ -30,22 +30,26 @@ export const AboutUs = () => {
               </div>
 
               <div>
-                2.<span className='text-orange-600 font-semibold'>Online Job Portal:</span>
+                2.<span className='text-orange-600 font-semibold'>Url Shortner:</span>
+                Help to Convert Long Url into Short Url .
+              </div>
+              <div>
+                3.<span className='text-orange-600 font-semibold'>Online Job Portal:</span>
                 A platform connecting job seekers and recruiters.
               </div>
 
               <div>
-                5.<span className='text-orange-600 font-semibold'>Chatting App:</span>
+                4.<span className='text-orange-600 font-semibold'>Chatting App:</span>
                 A real-time chat application using WebSockets.
               </div>
 
               <div>
-                3.<span className='text-orange-600 font-semibold'>PhotoPholio:</span>
+                5.<span className='text-orange-600 font-semibold'>PhotoPholio:</span>
                 A portfolio website for photographers.
               </div>
 
               <div>
-                4.<span className='text-orange-600 font-semibold'>Personal Portfolio:</span>
+                6.<span className='text-orange-600 font-semibold'>Personal Portfolio:</span>
                 Showcasing my skills and projects.
               </div>
             </div>
