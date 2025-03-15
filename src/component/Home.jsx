@@ -34,11 +34,11 @@ export const Home = () => {
                 <div className='flex justify-center items-center flex-col mt-4'>
 
                     <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white">
-                        <a href="https://vayuurlshortner.netlify.app/" target='_blanck'>UrlShortner</a>
+                        <a href="https://vayuurlshortner.netlify.app/" target='_blanck'>UrlShortner-Url shorting App</a>
                     </div>
 
                     <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white" >
-                        <a href="https://shopingbuybusy.netlify.app/" target='_blanck'> BuBusy-Online Shoping App</a>
+                        <a href="https://shopingbuybusy.netlify.app/" target='_blanck'> BuyBusy-Online Shoping App</a>
                     </div>
 
                     <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white">
