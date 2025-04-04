@@ -34,7 +34,7 @@ export const Home = () => {
                 <div className='flex justify-center items-center flex-col mt-4'>
 
                     <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white">
-                        <a href="https://vayuurlshortner.netlify.app/" target='_blanck'>UrlShortner-Url shorting App</a>
+                        <a href="https://vayusmarttool.netlify.app/" target='_blanck'>SmartTool App</a>
                     </div>
 
                     <div className=" rounded-md p-1 text-blue-950  mb-1 hover:text-white" >
