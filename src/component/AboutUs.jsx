@@ -30,8 +30,8 @@ export const AboutUs = () => {
               </div>
 
               <div>
-                2.<span className='text-orange-600 font-semibold'>Url Shortner:</span>
-                Help to Convert Long Url into Short Url .
+                2.<span className='text-orange-600 font-semibold'>SmartTool App:</span>
+                this App is small gadgets tool there is are url shortner,weather check, and more is in update process
               </div>
               <div>
                 3.<span className='text-orange-600 font-semibold'>Online Job Portal:</span>
