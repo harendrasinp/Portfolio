@@ -24,7 +24,7 @@ export const Home = () => {
                     {techData.map((tech, index) => (
                         <div key={index} className="flex">
                             <img className='w-[1.5rem] h-[1.5rem]' src={tech.image} alt="js" />
-                            <span>{tech.name}</span>
+                            <span className='text-blue-200'>{tech.name}</span>
                         </div>
                     ))}
                 </div>
