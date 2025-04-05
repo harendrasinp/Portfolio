@@ -37,7 +37,7 @@ export const AboutUs = () => {
 
               <div>
                 2.<span className='text-orange-600 font-semibold'>SmartTool App:</span>
-                this App is small gadgets tool there is are url shortner,weather check, and more is in update process
+                This App is like a small gadgets tool App, in this app there are two gadgets urlshortner,weather,with the help of urlShortner you can short your long Url and with the healp of weather app you can check your area weather detail,and many more is in update process
               </div>
               <div>
                 3.<span className='text-orange-600 font-semibold'>Online Job Portal:</span>
