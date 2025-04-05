@@ -13,17 +13,17 @@ export const MyCarousel = () => {
     return (
         <div className=' w-[18rem]'>
             <Slider {...settings}>
-            <div><img className='w-[20rem] h-[10rem]'src="../public/certificate_Image/backend1.jpg"alt="Image 1"/>
+            <div><img className='w-[20rem] h-[10rem]'src="/certificate_Image/backend1.jpg"alt="Image 1"/>
             </div>
-            <div><img className='w-[20rem] h-[10rem]'src="../public/certificate_Image/backend2.jpg"alt="Image 1"/>
+            <div><img className='w-[20rem] h-[10rem]'src="/certificate_Image/backend2.jpg"alt="Image 1"/>
             </div>
-            <div><img className='w-[20rem] h-[10rem]'src="../public/certificate_Image/react1.jpg"alt="Image 1"/>
+            <div><img className='w-[20rem] h-[10rem]'src="/certificate_Image/react1.jpg"alt="Image 1"/>
             </div>
-            <div><img className='w-[20rem] h-[10rem]'src="../public/certificate_Image/react2.jpg"alt="Image 1"/>
+            <div><img className='w-[20rem] h-[10rem]'src="/certificate_Image/react2.jpg"alt="Image 1"/>
             </div>
-            <div><img className='w-[20rem] h-[10rem]'src="../public/certificate_Image/frontend1.jpg"alt="Image 1"/>
+            <div><img className='w-[20rem] h-[10rem]'src="/certificate_Image/frontend1.jpg"alt="Image 1"/>
             </div>
-            <div><img className='w-[20rem] h-[10rem]'src="../public/certificate_Image/frontend2.jpg"alt="Image 1"/>
+            <div><img className='w-[20rem] h-[10rem]'src="/certificate_Image/frontend2.jpg"alt="Image 1"/>
             </div>
                 
             </Slider>
