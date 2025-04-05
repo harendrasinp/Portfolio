@@ -1,7 +1,7 @@
-import React from 'react'
+import React  from 'react'
 import { techData } from '../techno.js/techData'
 import { Download } from './Download'
-import { motion } from 'framer-motion'
+import { motion} from 'framer-motion'
 export const Home = () => {
     return (
         <div className="flex flex-col justify-center items-center gap-5
@@ -13,7 +13,7 @@ export const Home = () => {
             <motion.div className="w-[22rem] h-[13rem] bg-slate-800/80 rounded-md flex flex-col gap-4 justify-center items-center  cursor-pointer lg:w-[25rem] lg:h-[14rem]"
                 initial={{opacity:0,y:180}}
                 animate={{y:0,opacity:1}}
-                transition={{delay:0,duration:1,ease:"easeInOut"}}>
+                transition={{delay:0.5,duration:1,ease:"easeInOut"}}>
                 <div className=' w-full flex justify-center items-center gap-2'>
                     <div className="text-[1.2rem] text-gray-100 font-semibold">Technologies</div>
                     <div className="">
@@ -30,12 +30,11 @@ export const Home = () => {
                 </div>
             </motion.div>
             {/* ----------------------Projec box---------------------------------------------------- */}
-            <div className="flex flex-col shadow-md bg-slate-800/80 w-[22rem] h-[13rem] rounded-[0.2rem] 
-                            trasition duration-700 hover:scale-105 cursor-pointer
-                            lg:w-[25rem] lg:h-[14rem]"
+            <motion.div className="flex flex-col shadow-md bg-slate-800/80 w-[22rem] h-[13rem] rounded-[0.2rem] 
+                             cursor-pointer lg:w-[25rem] lg:h-[14rem]"
                             initial={{opacity:0,y:180}}
                             animate={{y:0,opacity:1}}
-                            transition={{delay:0,duration:1,ease:"easeInOut"}}>
+                            transition={{delay:1.5,duration:1,ease:"easeInOut"}}>
                 <div className='w-full flex justify-center items-center gap-2'>
                     <div className="text-[1.2rem] text-gray-100 font-semibold">Projects</div>
                     <div className="">
@@ -61,13 +60,13 @@ export const Home = () => {
                     </div>
 
                 </div>
-            </div>
+            </motion.div>
             {/* -----------------------------------Achivment Box------------------------------------------ */}
             <motion.div className="mb-[2rem] flex flex-col shadow-md bg-slate-800/80 w-[22rem] h-[15rem] rounded-[0.2rem] 
                              cursor-pointer lg:w-[25rem] lg:h-[14rem] lg:mb-0"
                             initial={{y:180,opacity:0}}
-                            animate={{y:0,opacity:1}}
-                            transition={{delay:0,duration:1,ease:"linear"}}>
+                            animate={{opacity:1,y:0}}
+                            transition={{delay:1.9,duration:1,ease:"easeInOut"}}>
                 <div className='w-full flex justify-center items-center gap-2'>
                     <div className="text-[1.2rem] text-gray-100 font-semibold">Achievements</div>
                     <div className="">

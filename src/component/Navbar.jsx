@@ -29,7 +29,7 @@ export const Navbar = () => {
         {/* --------------------------------Navbar Menu--------------------------------------------------- */}
         <div className="w-[22rem] flex flex-col gap-2 lg:w-[30rem]">
           <div className="w-full text-gray-100 flex justify-center text-[0.9rem] items-center gap-5
-                          lg:flex lg:justify-end lg:gap-10 lg:w-full">
+                          lg:flex lg:justify-end lg:gap-10 lg:w-full lg:text-[1rem]">
             <div><Link to={"/"}>Home</Link></div>
             <div><Link to={"contact"}>Contact me</Link></div>
             <div><Link to={"/aboutUs"}>About me</Link></div>

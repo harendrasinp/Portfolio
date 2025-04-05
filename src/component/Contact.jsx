@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { motion } from 'framer-motion'
 export const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -28,7 +29,11 @@ export const Contact = () => {
   }
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="w-[22rem] flex justify-center items-center flex-col lg:w-[50rem]">
+      <motion.div className="w-[22rem] flex justify-center items-center flex-col lg:w-[50rem]"
+          initial={{opacity:0,scale:0}}
+          animate={{opacity:1,scale:1}}
+          transition={{duration:1.5}}
+          >
         <div className="">
           <h2 className='text-2xl font-extrabold text-slate-500'>Contact</h2>
         </div>
@@ -61,7 +66,7 @@ export const Contact = () => {
             <button type="submit" className="text-white bg-blue-900 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
           </form>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
