@@ -4,7 +4,7 @@ export const AboutUs = () => {
   return (
     <div className='h-full lg:mt-0 lg:flex justify-center w-full px-[0.8rem]'>
 
-      <motion.div className='w-full h-[58rem] bg-slate-500/15 backdrop-blur-md lg:w-[50rem] lg:mt-[1rem] lg:h-[40rem] rounded-md'
+      <motion.div className='w-full h-[58rem] bg-slate-500/15 backdrop-blur-md lg:w-[50rem] lg:mt-[1rem] lg:h-[40rem] rounded-md mb-3'
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration:1.8}}>
