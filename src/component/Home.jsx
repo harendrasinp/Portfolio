@@ -4,7 +4,7 @@ import { Download } from './Download'
 import { motion } from 'framer-motion'
 export const Home = () => {
     return (
-        <div className="min-h-screen flex flex-col justify-center items-center gap-5
+        <div className="flex flex-col justify-center items-center gap-5
                         lg:flex lg:flex-row lg:justify-center">
             <div className="lg:hidden w-fit mt-1">
                 <Download />
@@ -60,7 +60,7 @@ export const Home = () => {
                 </div>
             </div>
             {/* -----------------------------------Achivment Box------------------------------------------ */}
-            <motion.div className="flex flex-col shadow-md bg-slate-800/80 w-[22rem] h-[13rem] rounded-[0.2rem] 
+            <motion.div className="mb-[2rem] flex flex-col shadow-md bg-slate-800/80 w-[22rem] h-[15rem] rounded-[0.2rem] 
                             transition-all duration-700 hover:scale-105 cursor-pointer lg:w-[25rem] lg:h-[14rem]"
                             initial={{y:180,opacity:0}}
                             animate={{y:0,opacity:1}}
