@@ -2,13 +2,12 @@ import React from 'react'
 import { motion } from 'framer-motion'
 export const AboutUs = () => {
   return (
-    <div className='h-full lg:mt-0 lg:flex justify-center w-full'>
+    <div className='h-full lg:mt-0 lg:flex justify-center w-full px-[0.8rem]'>
 
-      <motion.div className='w-[24.6rem] h-[55rem] bg-slate-500/15 backdrop-blur-md lg:w-[50rem] lg:mt-[1rem] lg:h-[40rem]'
-        initial={{opacity:0,scale:0}}
-        animate={{opacity:1,scale:1}}
-        transition={{duration:1}}
-            >
+      <motion.div className='w-full h-[58rem] bg-slate-500/15 backdrop-blur-md lg:w-[50rem] lg:mt-[1rem] lg:h-[40rem] rounded-md'
+        initial={{ opacity: 0, scale: 0 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration:1.8}}>
 
         <div className='w-[4rem]'><img src="https://cdn-icons-png.flaticon.com/128/3705/3705611.png" alt="pin" /></div>
         {/* ----------------------------About me-------------------------------------------------------- */}
