@@ -4,7 +4,7 @@ import { Download } from './Download'
 import { motion } from 'framer-motion'
 export const Home = () => {
     return (
-        <div className="flex flex-col justify-center items-center gap-5
+        <div className="min-h-screen flex flex-col justify-center items-center gap-5
                         lg:flex lg:flex-row lg:justify-center">
             <div className="lg:hidden w-fit mt-1">
                 <Download />
