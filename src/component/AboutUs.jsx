@@ -1,9 +1,9 @@
 import React from 'react'
 export const AboutUs = () => {
   return (
-    <div className='mt-[14.8rem] lg:mt-0 lg:flex justify-center h-[40rem] w-full'>
+    <div className='mt-[14.8rem] h-full lg:mt-0 lg:flex justify-center w-full'>
 
-      <div className='w-[24.6rem] h-[50rem] bg-slate-500/15 backdrop-blur-md lg:w-[50rem] lg:mt-[1rem] lg:h-[35rem] 'data-aos="zoom-in">
+      <div className='w-[24.6rem] h-[50rem] bg-slate-500/15 backdrop-blur-md lg:w-[50rem] lg:mt-[1rem] lg:h-[40rem] 'data-aos="zoom-in">
         <div className='w-[4rem]'><img src="https://cdn-icons-png.flaticon.com/128/3705/3705611.png" alt="pin" /></div>
         {/* ----------------------------About me-------------------------------------------------------- */}
         <div className="flex justify-center flex-col items-center lg:mt-[1rem]">

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import ContactStyle from "./Contact.module.css"
 export const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -28,12 +27,12 @@ export const Contact = () => {
     }
   }
   return (
-    <div className={ContactStyle.ContactCounntainer}>
-      <div className={`${ContactStyle.contactBox}`} data-aos="zoom-in">
-        <div className={ContactStyle.title}>
-          <h2>Contact</h2>
+    <div className="flex justify-center items-center w-full">
+      <div className="w-[50rem] flex justify-center items-center flex-col">
+        <div className="">
+          <h2 className='text-2xl font-extrabold text-slate-500'>Contact</h2>
         </div>
-        <div className={ContactStyle.form}>
+        <div className="w-full">
           <form onSubmit={handleForm}>
             <div className="grid gap-6 mb-6 md:grid-cols-2">
               <div>
