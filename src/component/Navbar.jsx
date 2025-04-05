@@ -28,14 +28,14 @@ export const Navbar = () => {
         </div>
         {/* --------------------------------Navbar Menu--------------------------------------------------- */}
         <div className="w-[22rem] flex flex-col gap-2 lg:w-[30rem]">
-          <div className="w-full text-gray-100 flex justify-center text-[0.8rem] items-center gap-5
+          <div className="w-full text-gray-100 flex justify-center text-[0.9rem] items-center gap-5
                           lg:flex lg:justify-end lg:gap-10 lg:w-full">
             <div><Link to={"/"}>Home</Link></div>
             <div><Link to={"contact"}>Contact me</Link></div>
             <div><Link to={"/aboutUs"}>About me</Link></div>
             <div className="lg:flex lg:justify-center lg:items-center gap-1
                             flex justify-center items-center">
-              <a href="https://github.com/harendrasinp"><span className='text-[0.8rem]'>Github</span></a>
+              <a href="https://github.com/harendrasinp"><span className='text-[0.9rem]'>Github</span></a>
               <img className='w-[2rem] h-[2rem]' src="https://cdn-icons-png.flaticon.com/128/11376/11376339.png" alt="github" />
             </div>
           </div>
