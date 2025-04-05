@@ -32,7 +32,10 @@ export const Home = () => {
             {/* ----------------------Projec box---------------------------------------------------- */}
             <div className="flex flex-col shadow-md bg-slate-800/80 w-[22rem] h-[13rem] rounded-[0.2rem] 
                             trasition duration-700 hover:scale-105 cursor-pointer
-                            lg:w-[25rem] lg:h-[14rem]">
+                            lg:w-[25rem] lg:h-[14rem]"
+                            initial={{opacity:0,y:180}}
+                            animate={{y:0,opacity:1}}
+                            transition={{delay:0,duration:1,ease:"easeInOut"}}>
                 <div className='w-full flex justify-center items-center gap-2'>
                     <div className="text-[1.2rem] text-gray-100 font-semibold">Projects</div>
                     <div className="">
@@ -61,7 +64,7 @@ export const Home = () => {
             </div>
             {/* -----------------------------------Achivment Box------------------------------------------ */}
             <motion.div className="mb-[2rem] flex flex-col shadow-md bg-slate-800/80 w-[22rem] h-[15rem] rounded-[0.2rem] 
-                            transition-all duration-700 hover:scale-105 cursor-pointer lg:w-[25rem] lg:h-[14rem]"
+                             cursor-pointer lg:w-[25rem] lg:h-[14rem] lg:mb-0"
                             initial={{y:180,opacity:0}}
                             animate={{y:0,opacity:1}}
                             transition={{delay:0,duration:1,ease:"linear"}}>
