@@ -8,7 +8,7 @@ export const App = () => {
   useEffect(()=>{
   },[]);
   return (
-      <div className="h-[110vh] bg-[url('../public/background.jpg')] bg-center bg-cover flex flex-col gap-5">
+      <div className="min-h-screen bg-[url('/background.jpg')] bg-center bg-cover flex flex-col gap-5">
         <BrowserRouter>
           <Navbar />
           <Routes>

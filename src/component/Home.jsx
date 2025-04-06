@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { MyCarousel } from './MyCarousel'
 export const Home = () => {
     return (
-        <div className='flex flex-col justify-center items-center gap-10'>
+        <div className='flex flex-col justify-center items-center gap-5'>
             <div className="flex flex-col justify-center items-center gap-5
                         lg:flex lg:flex-row lg:justify-center">
                 <div className="lg:hidden w-fit mt-1">
@@ -103,7 +103,7 @@ export const Home = () => {
                     </div>
                 </motion.div>
             </div>
-            <div>
+            <div className="">
                 <MyCarousel/>
             </div>
         </div>
