@@ -92,6 +92,15 @@ export const MyCarousel = () => {
                         <p className='text-yellow-100'>frontend2</p>
                     </div>
                 </div>
+                <div className='p-2 flex justify-center items-center flex-col border-[0.2rem] shadow-lg shadow-blue-950 rounded-md'>
+                    <div>
+                        <img className='w-full h-[12rem]' src="/certificate_Image/Python1.jpg" alt="Image 1" />
+                    </div>
+
+                    <div className='w-full flex justify-center items-center bg-slate-600'>
+                        <p className='text-yellow-100'>Python1</p>
+                    </div>
+                </div>
             </Slider>
         </motion.div>
     )
