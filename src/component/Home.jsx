@@ -59,11 +59,6 @@ export const Home = () => {
                         <div className=" rounded-md p-1 text-blue-200  mb-1 hover:text-white">
                             <a href="https://vayuphotopholio.netlify.app/" target='_blanck'> Photofolio-Online album App</a>
                         </div>
-
-                        <div className=" rounded-md p-1 text-blue-200  mb-1 hover:text-white">
-                            <a href="https://vayuchatterup.netlify.app/" target='_blanck'> ChatterUp-Online Chatting App</a>
-                        </div>
-
                     </div>
                 </motion.div>
                 {/* -----------------------------------Achivment Box------------------------------------------ */}
