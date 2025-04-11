@@ -46,6 +46,9 @@ export const Home = () => {
                     <div className='flex justify-center items-center flex-col mt-4'>
 
                         <div className=" rounded-md p-1 text-blue-200  mb-1 hover:text-white">
+                            <a href="https://harendrasinh.netlify.app/" target='_blanck'>Portfolio</a>
+                        </div>
+                        <div className=" rounded-md p-1 text-blue-200  mb-1 hover:text-white">
                             <a href="https://vayusmarttool.netlify.app/" target='_blanck'>SmartTool App</a>
                         </div>
 
