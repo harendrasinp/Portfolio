@@ -30,31 +30,35 @@ export const AboutUs = () => {
           <div className='text-blue-950 w-[22rem] lg:w-[32rem]'>
             <div className="">
               <div>
-                1.<span className='text-orange-600 font-semibold'>Online Shopping Platform:</span>
+                1.<span className='text-orange-600 font-semibold'>Quiz GameApp:</span>
+                Multiple Choice Quetion Game App with Amazing UI
+              </div>
+              <div>
+                2.<span className='text-orange-600 font-semibold'>Online Shopping Platform:</span>
                 A feature-rich e-commerce application.
               </div>
 
               <div>
-                2.<span className='text-orange-600 font-semibold'>SmartTool App:</span>
+                3.<span className='text-orange-600 font-semibold'>SmartTool App:</span>
                 This App is like a small gadgets tool App, in this app there are two gadgets urlshortner,weather,with the help of urlShortner you can short your long Url and with the healp of weather app you can check your area weather detail,and many more is in update process
               </div>
               <div>
-                3.<span className='text-orange-600 font-semibold'>Online Job Portal:</span>
+                4.<span className='text-orange-600 font-semibold'>Online Job Portal:</span>
                 A platform connecting job seekers and recruiters.
               </div>
 
               <div>
-                4.<span className='text-orange-600 font-semibold'>Chatting App:</span>
+                5.<span className='text-orange-600 font-semibold'>Chatting App:</span>
                 A real-time chat application using WebSockets.
               </div>
 
               <div>
-                5.<span className='text-orange-600 font-semibold'>PhotoPholio:</span>
+                6.<span className='text-orange-600 font-semibold'>PhotoPholio:</span>
                 A portfolio website for photographers.
               </div>
 
               <div>
-                6.<span className='text-orange-600 font-semibold'>Personal Portfolio:</span>
+                7.<span className='text-orange-600 font-semibold'>Personal Portfolio:</span>
                 Showcasing my skills and projects.
               </div>
             </div>
