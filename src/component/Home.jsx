@@ -49,6 +49,9 @@ export const Home = () => {
                             <a href="https://harendrasinh.netlify.app/" target='_blanck'>Portfolio</a>
                         </div>
                         <div className=" rounded-md p-1 text-blue-200  mb-1 hover:text-white">
+                            <a href="https://quetiongameapp.netlify.app/" target='_blanck'>Quiz GameApp</a>
+                        </div>
+                        <div className=" rounded-md p-1 text-blue-200  mb-1 hover:text-white">
                             <a href="https://vayusmarttool.netlify.app/" target='_blanck'>SmartTool App</a>
                         </div>
 
@@ -56,9 +59,6 @@ export const Home = () => {
                             <a href="https://shopingbuybusy.netlify.app/" target='_blanck'> BuyBusy-Online Shoping App</a>
                         </div>
 
-                        <div className=" rounded-md p-1 text-blue-200  mb-1 hover:text-white">
-                            <a href="https://vayuphotopholio.netlify.app/" target='_blanck'> Photofolio-Online album App</a>
-                        </div>
                     </div>
                 </motion.div>
                 {/* -----------------------------------Achivment Box------------------------------------------ */}
